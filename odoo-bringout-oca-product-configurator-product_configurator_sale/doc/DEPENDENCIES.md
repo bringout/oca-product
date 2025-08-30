@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [sale_management](https://github.com/bringout/oca-ocb-sale/tree/cfc4dbeb59ab3594bd1aa8f3bb16a1ee00557b4d/odoo-bringout-oca-ocb-sale_management)
+- [sale_management](https://github.com/bringout/oca-ocb-sale/tree/5d9b47ce90463a1c61e6fb80db86d42fb811e501/odoo-bringout-oca-ocb-sale_management)
 - [product_configurator](https://github.com/bringout/oca-technical)
-- [stock](https://github.com/bringout/oca-ocb-warehouse/tree/ffbc26923f1cbb52ea57b79a3bc1781623af2ae9/odoo-bringout-oca-ocb-stock)
+- [stock](https://github.com/bringout/oca-ocb-warehouse/tree/1135de9279731def9c756b5192f8860b5a0e7e59/odoo-bringout-oca-ocb-stock)
