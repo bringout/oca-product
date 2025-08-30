@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [sale](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale)
-- [product_variant_configurator](../../../../odoo-bringout-oca-product-variant-product_variant_configurator)
+- [sale](https://github.com/bringout/oca-ocb-sale)
+- [product_variant_configurator](https://github.com/bringout/oca-product)
