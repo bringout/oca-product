@@ -44,6 +44,9 @@ msgid ""
 "Price Extra: Extra price for the variant with the currently selected "
 "attributes values on sale price. eg. 200 price extra, 1000 + 200 = 1200."
 msgstr ""
+"Dodatna cijena: Dodatna cijena za varijantu sa trenutno odabranim "
+"vrijednostima atributa na prodajnoj cijeni. npr. 200 dodatno, 1000 + 200 = "
+"1200."
 
 #. module: sale_variant_configurator
 #: model:ir.model.fields,field_description:sale_variant_configurator.field_sale_order_line__product_id
@@ -55,10 +58,9 @@ msgstr "Artikal"
 msgid "Product Id Configurator Domain"
 msgstr "Domen konfiguratora ID proizvoda"
 
+# taken from hr.po
 #. module: sale_variant_configurator
 #: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_order_form
-#: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_order_line_tree
-#: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_sales_order_line_filter
 msgid "Product Template"
 msgstr "Predložak proizvoda"
 
@@ -77,16 +79,19 @@ msgstr "Kategorija jedinice mjere proizvoda"
 msgid "Product attributes"
 msgstr "Atributi proizvoda"
 
+# taken from hr.po
 #. module: sale_variant_configurator
 #: model:ir.model,name:sale_variant_configurator.model_sale_order
 msgid "Sales Order"
 msgstr "Ponuda"
 
+# taken from hr.po
 #. module: sale_variant_configurator
 #: model:ir.model,name:sale_variant_configurator.model_sale_order_line
 msgid "Sales Order Line"
 msgstr "Stavka ponude"
 
+# taken from hr.po
 #. module: sale_variant_configurator
 #: model_terms:ir.ui.view,arch_db:sale_variant_configurator.view_sales_order_line_filter
 msgid "Template"

@@ -41,6 +41,10 @@ msgid ""
 "* Totalized in main product: Detail lines merging lines prices on pack (don't show component prices).\n"
 "* Ignored: Use product pack price (ignore detail line prices)."
 msgstr ""
+"On sale orders or purchase orders:\n"
+"* Detailed per component: Detail lines with prices.\n"
+"* Totalized in main product: Detail lines merging lines prices on pack (don't show component prices).\n"
+"* Ignored: Use product pack price (ignore detail line prices)."
 
 #. module: purchase_product_pack
 #: model:ir.model.fields,help:purchase_product_pack.field_purchase_order_line__pack_type
@@ -49,6 +53,9 @@ msgid ""
 "* Detailed: Display components individually in the sale order.\n"
 "* Non Detailed: Do not display components individually in the sale order."
 msgstr ""
+"On sale orders or purchase orders:\n"
+"* Detailed: Display components individually in the sale order.\n"
+"* Non Detailed: Do not display components individually in the sale order."
 
 #. module: purchase_product_pack
 #: model:ir.model.fields,field_description:purchase_product_pack.field_purchase_order_line__pack_parent_line_id
@@ -77,7 +84,7 @@ msgstr "Nadređeni paket nije moguće mijenjati"
 
 #. module: purchase_product_pack
 #. odoo-python
-#: code:addons/purchase_product_pack/models/purchase_order_line.py:0
+#: code:addons/purchase_product_pack/models/purchase_order_line.py
 #, python-format
 msgid "Parent Product"
 msgstr "Nadređeni proizvod"
@@ -117,21 +124,25 @@ msgstr "Nadređeni paket je moguće mijenjati"
 msgid ""
 "This is a technical field in order to check if pack lines has to be expanded"
 msgstr ""
+"Ovo je tehničko polje za provjeru da li se redovi paketa trebaju proširiti"
 
 #. module: purchase_product_pack
 #. odoo-python
-#: code:addons/purchase_product_pack/models/purchase_order_line.py:0
+#: code:addons/purchase_product_pack/models/purchase_order_line.py
 #, python-format
 msgid ""
 "You can not change this line because is part of a pack included in this "
 "order"
 msgstr ""
+"Ne možete promijeniti ovaj red jer je dio paketa uključenog u ovu narudžbu"
 
 #. module: purchase_product_pack
 #. odoo-python
-#: code:addons/purchase_product_pack/models/purchase_order.py:0
+#: code:addons/purchase_product_pack/models/purchase_order.py
 #, python-format
 msgid ""
 "You cannot delete this line because is part of a pack in this purchase "
 "order. In order to delete this line you need to delete the pack itself"
 msgstr ""
+"Ne možete obrisati ovaj red jer je dio paketa u ovoj narudžbenici. Da biste "
+"obrisali ovaj red, morate obrisati sam paket"

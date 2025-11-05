@@ -13,13 +13,17 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: sale_order_line_variant_description
 #: model:ir.model.fields,help:sale_order_line_variant_description.field_product_product__variant_description_sale
 msgid ""
 "A description of the product variant that you want to communicate to your "
 "customers.This description will be copied to every Sale Order"
 msgstr ""
+"Opis varijante proizvoda koji želite prikazati kupcima. Ovaj opis će biti "
+"kopiran na svakoj ponudi"
 
+# taken from hr.po
 #. module: sale_order_line_variant_description
 #: model_terms:ir.ui.view,arch_db:sale_order_line_variant_description.product_variant_easy_edit_view
 msgid "Notes"
@@ -30,11 +34,13 @@ msgstr "Bilješke"
 msgid "Product Variant"
 msgstr "Varijanta proizvoda"
 
+# taken from hr.po
 #. module: sale_order_line_variant_description
 #: model_terms:ir.ui.view,arch_db:sale_order_line_variant_description.product_variant_easy_edit_view
 msgid "Sale Description"
 msgstr "Opis prodaje"
 
+# taken from hr.po
 #. module: sale_order_line_variant_description
 #: model:ir.model,name:sale_order_line_variant_description.model_sale_order_line
 msgid "Sales Order Line"
@@ -45,6 +51,7 @@ msgstr "Stavka ponude"
 msgid "This note is added to sales orders and invoices."
 msgstr "Ova bilješka je dodana ponudama i fakturama."
 
+# taken from hr.po
 #. module: sale_order_line_variant_description
 #: model:ir.model.fields,field_description:sale_order_line_variant_description.field_product_product__variant_description_sale
 msgid "Variant Sale Description"

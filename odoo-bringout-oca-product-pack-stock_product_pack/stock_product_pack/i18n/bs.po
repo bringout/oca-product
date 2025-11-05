@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: stock_product_pack
 #: model:ir.model.fields,field_description:stock_product_pack.field_product_product__dont_create_move
-#: model:ir.model.fields,field_description:stock_product_pack.field_product_template__dont_create_move
 msgid "Don't create move"
 msgstr "Ne kreiraj premiještaj"
 
@@ -36,10 +35,13 @@ msgstr "Varijanta proizvoda"
 
 #. module: stock_product_pack
 #: model:ir.model.fields,help:stock_product_pack.field_product_product__dont_create_move
-#: model:ir.model.fields,help:stock_product_pack.field_product_template__dont_create_move
 msgid ""
 "With this option, the pack won't create an stock.move and will be set as "
 "delivered upon sale confirmation. This is useful to use get pack stock "
 "availability (type = 'product') but without actually having stock and moves "
 "of it."
 msgstr ""
+"Sa ovom opcijom, pakovanje neće kreirati stock.move i biće postavljen kao "
+"isporučen nakon potvrde prodaje. Ovo je korisno za korišćenje dostupnosti "
+"zaliha pakovanja (tip = 'product') ali bez stvarnog postojanja zaliha i "
+"premiještaja."

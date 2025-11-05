@@ -19,10 +19,11 @@ msgid ""
 "<i class=\"fa fa-info-circle\"/> This field is maintained in the product "
 "variant form."
 msgstr ""
+"<i class=\"fa fa-info-circle\"/> This field is maintained in the product "
+"variant form."
 
 #. module: product_variant_specific_description
 #: model:ir.model.fields,field_description:product_variant_specific_description.field_product_product__description
-#: model:ir.model.fields,field_description:product_variant_specific_description.field_product_template__description
 msgid "Description"
 msgstr "Opis"
 
@@ -38,7 +39,6 @@ msgstr "Interne zabilješke"
 
 #. module: product_variant_specific_description
 #: model:ir.model.fields,field_description:product_variant_specific_description.field_product_product__is_system_multi_lang
-#: model:ir.model.fields,field_description:product_variant_specific_description.field_product_template__is_system_multi_lang
 msgid "Is System Multi Lang"
 msgstr "Is System Multi Lang"
 

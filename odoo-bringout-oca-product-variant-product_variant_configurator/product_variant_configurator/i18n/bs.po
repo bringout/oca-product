@@ -24,6 +24,8 @@ msgid ""
 "<strong>Info:</strong> You can now manage the variant creation from the "
 "Product Template level"
 msgstr ""
+"<strong>Info:</strong> You can now manage the variant creation from the "
+"Product Template level"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_product__description_sale
@@ -32,6 +34,8 @@ msgid ""
 " This description will be copied to every Sales Order, Delivery Order and "
 "Customer Invoice/Credit Note"
 msgstr ""
+"Opis proizvoda koji želite prenijeti vašim kupcima. Ovo će se pojaviti na "
+"ponudama i narudžbama."
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_product__detailed_type
@@ -40,12 +44,16 @@ msgid ""
 "A consumable product is a product for which stock is not managed.\n"
 "A service is a non-material product you provide."
 msgstr ""
+"Skladišni proizvod je proizvod za koji vodite evidenciju zaliha. Aplikacija Inventar mora biti instalirana.\n"
+"Potrošni proizvod je proizvod za koji se zalihe ne prate.\n"
+"Usluga je nematerijalni proizvod koji pružate."
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__account_tag_ids
 msgid "Account Tags"
 msgstr "Oznake konta"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__attribute_id
 msgid "Attribute"
@@ -61,9 +69,10 @@ msgstr "Ekstra cijena atributa"
 msgid "Attribute Value"
 msgstr "Ime atributa"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator__can_create_product
-#: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__can_create_product
+#, fuzzy
 msgid "Can Create Product"
 msgstr "Može napraviti proizvod"
 
@@ -77,18 +86,17 @@ msgstr "Može se kupovati"
 msgid "Can be Sold"
 msgstr "Može se prodati"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #. odoo-python
-#: code:addons/product_variant_configurator/models/product_category.py:0
-#: code:addons/product_variant_configurator/models/product_template.py:0
+#: code:addons/product_variant_configurator/models/product_category.py
 #, python-format
 msgid "Change warning!"
 msgstr "Upozorenje Izmjena!"
 
 #. module: product_variant_configurator
 #. odoo-python
-#: code:addons/product_variant_configurator/models/product_category.py:0
-#: code:addons/product_variant_configurator/models/product_template.py:0
+#: code:addons/product_variant_configurator/models/product_category.py
 #, python-format
 msgid "Changing this parameter may cause automatic variants creation"
 msgstr "Changing this parameter may cause automatic variants creation"
@@ -113,17 +121,19 @@ msgstr "Kontrolna politika"
 msgid "Cost Currency"
 msgstr "Valuta troška"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator__create_product_variant
-#: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__create_product_variant
 msgid "Create product now!"
 msgstr "Kreiraj proizvod sada!"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__create_date
 msgid "Created on"
@@ -160,22 +170,27 @@ msgid ""
 "Default unit of measure used for purchase orders. It must be in the same "
 "category as the default unit of measure."
 msgstr ""
+"Zadana jedinica mjere korištena za nabavne naloge. Mora biti u istoj "
+"kategoriji kao zadana jedinica mjere."
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__description
 msgid "Description"
 msgstr "Opis"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__display_name
 msgid "Display Name"
 msgstr "Prikaži naziv"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields.selection,name:product_variant_configurator.selection__product_template__no_create_variants__yes
 msgid "Don't create them automatically"
 msgstr "Nemoj ih kreirati automatski"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_category__no_create_variants
 msgid "Don't create variants automatically"
@@ -193,6 +208,9 @@ msgid ""
 " a validated expense can be re-invoice to a customer at its cost or sales "
 "price."
 msgstr ""
+"Troškovi i računi dobavljača mogu se fakturirati kupcu. Ovom se opcijom "
+"validirani trošak može zaračunati kupcu po njegovom trošku ili prodajnoj "
+"cijeni."
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__priority
@@ -202,7 +220,7 @@ msgstr "Omiljeni"
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_product__sequence
 msgid "Gives the sequence order when displaying a product list"
-msgstr "Gives the sequence order when displaying a product list"
+msgstr "Daje redoslijed sekvence prilikom prikazivanja liste proizvoda"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__id
@@ -216,6 +234,9 @@ msgid ""
 "automatically created to buy the product. Tip: don't forget to set a vendor "
 "on the product."
 msgstr ""
+"If ticked, each time you sell this product through a SO, a RfQ is "
+"automatically created to buy the product. Tip: don't forget to set a vendor "
+"on the product."
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__property_account_income_id
@@ -237,6 +258,8 @@ msgstr "Je konfigurabilan proizvod"
 msgid ""
 "Keep this field empty to use the default value from the product category."
 msgstr ""
+"Ostavite ovo polje prazno za korištenje zadane vrijednosti iz kategorije "
+"proizvoda."
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_product__property_account_expense_id
@@ -245,17 +268,24 @@ msgid ""
 " anglo-saxon accounting with automated valuation method is configured, the "
 "expense account on the product category will be used."
 msgstr ""
+"Ostavite ovo polje prazno da biste koristili podrazumijevanu vrijednost iz "
+"kategorije proizvoda. Ako je konfigurisan anglo-saksonski računovodstveni "
+"model sa automatizovanom procjenom, koristiće se konto troška iz kategorije "
+"proizvoda."
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__write_date
 msgid "Last Updated on"
@@ -273,6 +303,9 @@ msgid ""
 "Timesheets on contract: Invoice based on the tracked hours on the related timesheet.\n"
 "Create a task and track hours: Create a task on the sales order validation and track the work hours."
 msgstr ""
+"Ručno postavi količine na narudžbi: fakturiši na osnovu ručno unesenih količina, bez kreiranja analitičkog računa.\n"
+"Evidencije rada na ugovor: fakturiši na osnovu evidentiranih sati na pripadajućoj evidenciji rada.\n"
+"Kreiraj zadatak i prati sate: kreiraj zadatak pri potvrdi prodajne narudžbe i prati utrošene sate."
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__purchase_line_warn_msg
@@ -284,6 +317,7 @@ msgstr "Poruka za stavku narudžbenice"
 msgid "Message for Sales Order Line"
 msgstr "Upozorenje za stavku prodajne narudžbe"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__name
 msgid "Name"
@@ -295,6 +329,8 @@ msgid ""
 "On ordered quantities: Control bills based on ordered quantities.\n"
 "On received quantities: Control bills based on received quantities."
 msgstr ""
+"Na naručenim količinama: kontrola računa prema naručenim količinama.\n"
+"Na primljenim količinama: kontrola računa prema primljenoj količini."
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__optional_product_ids
@@ -307,6 +343,8 @@ msgid ""
 "Optional Products are suggested whenever the customer hits *Add to Cart* "
 "(cross-sell strategy, e.g. for computers: warranty, software, etc.)."
 msgstr ""
+"Opcionalni proizvodi su predloženi kad god kupac klikne \"Dodaj u košaricu\""
+" (strategija križne prodaje, npr. za računala: jamstvo, programi itd.)."
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_product__invoice_policy
@@ -314,24 +352,34 @@ msgid ""
 "Ordered Quantity: Invoice quantities ordered by the customer.\n"
 "Delivered Quantity: Invoice quantities delivered to the customer."
 msgstr ""
+"Označite ovu kućicu ako šaljete ponude vašim klijentima umjesto direktnog "
+"potvrđivanja narudžbi. Ovo će dodati specifična dugmad za akcije na vašu "
+"kontrolnu tablu."
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__owner_id
 msgid "Owner"
 msgstr "Vlasnik"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__owner_model
+#, fuzzy
 msgid "Owner Model"
 msgstr "Model vlasnika"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__possible_value_ids
+#, fuzzy
 msgid "Possible Value"
 msgstr "ID mogućih vrijednosti"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator__price_extra
+#, fuzzy
 msgid "Price Extra"
 msgstr "Extra cijena"
 
@@ -341,6 +389,9 @@ msgid ""
 "Price Extra: Extra price for the variant with the currently selected "
 "attributes values on sale price. eg. 200 price extra, 1000 + 200 = 1200."
 msgstr ""
+"Dodatna cijena: Dodatna cijena za varijantu sa trenutno odabranim "
+"vrijednostima atributa na prodajnoj cijeni. npr. 200 dodatno, 1000 + 200 = "
+"1200."
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_configurator_attribute__price_extra
@@ -348,15 +399,18 @@ msgid ""
 "Price Extra: Extra price for the variant with this attribute value on sale "
 "price. eg. 200 price extra, 1000 + 200 = 1200."
 msgstr ""
+"Price Extra: Extra price for the variant with this attribute value on sale "
+"price. eg. 200 price extra, 1000 + 200 = 1200."
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model,name:product_variant_configurator.model_product_pricelist
 msgid "Pricelist"
 msgstr "Cjenik"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model,name:product_variant_configurator.model_product_template
-#: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__product_variant_id
 msgid "Product"
 msgstr "Proizvod"
 
@@ -365,9 +419,9 @@ msgstr "Proizvod"
 msgid "Product Attributes"
 msgstr "Atributi artikla"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model,name:product_variant_configurator.model_product_category
-#: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__categ_id
 msgid "Product Category"
 msgstr "Kategorija proizvoda"
 
@@ -383,20 +437,17 @@ msgstr "Product Configurator Attribute"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator__product_id_configurator_domain
-#: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__product_id_configurator_domain
 msgid "Product Id Configurator Domain"
-msgstr "Product Id Configurator Domain"
+msgstr "Domena konfiguratora ID proizvoda"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__product_tag_ids
 msgid "Product Tags"
 msgstr "Oznake artikla"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator__product_tmpl_id
-#: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator_attribute__product_tmpl_id
-#: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__product_tmpl_id
-#: model_terms:ir.ui.view,arch_db:product_variant_configurator.product_variants_view
 msgid "Product Template"
 msgstr "Predložak proizvoda"
 
@@ -417,20 +468,19 @@ msgstr "Tip artikla"
 
 #. module: product_variant_configurator
 #: model:ir.model,name:product_variant_configurator.model_product_product
-#: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator__product_id
-#: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__product_id
 msgid "Product Variant"
 msgstr "Varijanta proizvoda"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_configurator__product_attribute_ids
-#: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__product_attribute_ids
 msgid "Product attributes"
 msgstr "Atributi proizvoda"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #. odoo-python
-#: code:addons/product_variant_configurator/models/product_configurator.py:0
+#: code:addons/product_variant_configurator/models/product_configurator.py
 #, python-format
 msgid "Product not created!"
 msgstr "Proizvod nije kreiran!"
@@ -470,6 +520,7 @@ msgstr "Prefakturiši troškove"
 msgid "Re-Invoice Policy visible"
 msgstr "Re-Invoice Policy visible"
 
+# taken from hr.po
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_template_attribute_line__required
 msgid "Required"
@@ -492,12 +543,14 @@ msgstr "Select a template for a variant. Keep empty for a new full product."
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_product__purchase_line_warn
-#: model:ir.model.fields,help:product_variant_configurator.field_product_product__sale_line_warn
 msgid ""
 "Selecting the \"Warning\" option will notify user with the message, "
 "Selecting \"Blocking Message\" will throw an exception with the message and "
 "block the flow. The Message has to be written in the next field."
 msgstr ""
+"Odabirom opcije \"Upozorenje\" korisnik će biti obaviješten porukom, dok "
+"opcija \"Blokirajuća poruka\" baca izuzetak s porukom i zaustavlja tok. "
+"Poruku je potrebno unijeti u sljedeće polje."
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__sequence
@@ -514,6 +567,7 @@ msgstr "Usluga podizvođača"
 msgid ""
 "Tags to be set on the base and tax journal items created for this product."
 msgstr ""
+"Tags to be set on the base and tax journal items created for this product."
 
 #. module: product_variant_configurator
 #: model:ir.model.constraint,message:product_variant_configurator.constraint_product_template_attribute_line_product_attribute_uniq
@@ -522,7 +576,7 @@ msgstr "The attribute already exists for this product"
 
 #. module: product_variant_configurator
 #. odoo-python
-#: code:addons/product_variant_configurator/models/product_product.py:0
+#: code:addons/product_variant_configurator/models/product_product.py
 #, python-format
 msgid "There's another product with the same attributes."
 msgstr "There's another product with the same attributes."
@@ -533,11 +587,13 @@ msgid ""
 "This check disables the automatic creation of product variants for all the "
 "products of this category."
 msgstr ""
+"This check disables the automatic creation of product variants for all the "
+"products of this category."
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_product__price_extra
 msgid "This is the sum of the extra price of all attributes"
-msgstr "This is the sum of the extra price of all attributes"
+msgstr "Ovo je ukupna dodatna cijena svih atributa"
 
 #. module: product_variant_configurator
 #: model_terms:ir.ui.view,arch_db:product_variant_configurator.product_variants_view_2
@@ -546,11 +602,12 @@ msgstr "This product already exists."
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,help:product_variant_configurator.field_product_product__no_create_variants
-#: model:ir.model.fields,help:product_variant_configurator.field_product_template__no_create_variants
 msgid ""
 "This selection defines if variants for all attribute combinations are going "
 "to be created automatically at saving time."
 msgstr ""
+"This selection defines if variants for all attribute combinations are going "
+"to be created automatically at saving time."
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__service_type
@@ -609,7 +666,6 @@ msgstr "Prodavač varijante"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__no_create_variants
-#: model:ir.model.fields,field_description:product_variant_configurator.field_product_template__no_create_variants
 msgid "Variant creation"
 msgstr "Kreiranje varijante"
 
@@ -631,7 +687,7 @@ msgstr "Pregled"
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__volume_uom_name
 msgid "Volume unit of measure label"
-msgstr "Volume unit of measure label"
+msgstr "Labela mjerne jedinice zapremine"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__weight_uom_name
@@ -640,9 +696,11 @@ msgstr "Natpis za jedinicu mjere težine"
 
 #. module: product_variant_configurator
 #. odoo-python
-#: code:addons/product_variant_configurator/models/product_product.py:0
+#: code:addons/product_variant_configurator/models/product_product.py
 #, python-format
 msgid ""
 "You have to fill the following attributes:\n"
 "%s"
 msgstr ""
+"You have to fill the following attributes:\n"
+"%s"

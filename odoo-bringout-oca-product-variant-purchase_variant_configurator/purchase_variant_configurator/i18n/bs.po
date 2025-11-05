@@ -35,14 +35,11 @@ msgstr "Kreiraj proizvod sada!"
 
 #. module: purchase_variant_configurator
 #: model:ir.model.fields,help:purchase_variant_configurator.field_res_company__po_confirm_create_variant
-#: model:ir.model.fields,help:purchase_variant_configurator.field_res_config_settings__po_confirm_create_variant
-#: model_terms:ir.ui.view,arch_db:purchase_variant_configurator.res_config_settings_view_form_purchase
 msgid "Create product variants when confirming"
 msgstr "Kreiraj varijante proizvoda prilikom potvrde"
 
 #. module: purchase_variant_configurator
 #: model:ir.model.fields,field_description:purchase_variant_configurator.field_res_company__po_confirm_create_variant
-#: model:ir.model.fields,field_description:purchase_variant_configurator.field_res_config_settings__po_confirm_create_variant
 msgid "Create variants on confirm"
 msgstr "Kreiraj varijante pri potvrdi"
 
@@ -54,7 +51,8 @@ msgstr "Zabranjene vrijednosti na stavkama bez narudžbenog naloga"
 #. module: purchase_variant_configurator
 #: model:ir.model.constraint,message:purchase_variant_configurator.constraint_purchase_order_line_accountable_required_fields
 msgid "Missing required fields on accountable purchase order line."
-msgstr "Nedostaju obavezna polja na narudžbenim stavkama za koje je moguć izračun."
+msgstr ""
+"Nedostaju obavezna polja na narudžbenim stavkama za koje je moguć izračun."
 
 #. module: purchase_variant_configurator
 #: model:ir.model.fields,field_description:purchase_variant_configurator.field_purchase_order_line__price_extra
@@ -67,10 +65,12 @@ msgid ""
 "Price Extra: Extra price for the variant with the currently selected "
 "attributes values on sale price. eg. 200 price extra, 1000 + 200 = 1200."
 msgstr ""
+"Dodatna cijena: Dodatna cijena za varijantu sa trenutno odabranim "
+"vrijednostima atributa na prodajnoj cijeni. npr. 200 dodatno, 1000 + 200 = "
+"1200."
 
 #. module: purchase_variant_configurator
 #: model:ir.model,name:purchase_variant_configurator.model_product_template
-#: model:ir.model.fields,field_description:purchase_variant_configurator.field_purchase_order_line__product_id
 msgid "Product"
 msgstr "Artikal"
 
@@ -114,6 +114,7 @@ msgstr "Konfigurator proizvoda"
 msgid "Purchase Order"
 msgstr "Nalog za nabavu"
 
+# taken from hr.po
 #. module: purchase_variant_configurator
 #: model:ir.model,name:purchase_variant_configurator.model_purchase_order_line
 msgid "Purchase Order Line"
