@@ -75,17 +75,17 @@ msgstr "Je li paket proizvoda?"
 #. module: product_pack
 #: model:ir.model.fields,field_description:product_pack.field_product_pack_line____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: product_pack
 #: model:ir.model.fields,field_description:product_pack.field_product_pack_line__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: product_pack
 #: model:ir.model.fields,field_description:product_pack.field_product_pack_line__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: product_pack
 #: model:ir.model.fields.selection,name:product_pack.selection__product_template__pack_type__non_detailed
@@ -208,7 +208,7 @@ msgstr "Nadređeni proizvod"
 #. module: product_pack
 #: model:ir.model,name:product_pack.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: product_pack
 #: model:ir.model,name:product_pack.model_product_product

@@ -21,12 +21,12 @@ msgstr "Ne kreiraj premiještaj"
 #. module: stock_product_pack
 #: model:ir.model,name:stock_product_pack.model_procurement_group
 msgid "Procurement Group"
-msgstr "Grupa naručivanja"
+msgstr "Nalog za nabavu"
 
 #. module: stock_product_pack
 #: model:ir.model,name:stock_product_pack.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: stock_product_pack
 #: model:ir.model,name:stock_product_pack.model_product_product

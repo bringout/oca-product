@@ -143,17 +143,17 @@ msgstr "ID"
 #. module: product_configurator_mrp
 #: model:ir.model.fields,field_description:product_configurator_mrp.field_mrp_bom_line_configuration____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: product_configurator_mrp
 #: model:ir.model.fields,field_description:product_configurator_mrp.field_mrp_bom_line_configuration__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: product_configurator_mrp
 #: model:ir.model.fields,field_description:product_configurator_mrp.field_mrp_bom_line_configuration__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: product_configurator_mrp
 #: model:ir.model.fields,field_description:product_configurator_mrp.field_product_configurator_mrp__order_id
