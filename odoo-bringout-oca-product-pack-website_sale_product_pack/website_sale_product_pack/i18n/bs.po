@@ -21,7 +21,7 @@ msgstr "<span>↳ </span>"
 #. module: website_sale_product_pack
 #: model:ir.model,name:website_sale_product_pack.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: website_sale_product_pack
 #: model:ir.model,name:website_sale_product_pack.model_product_product

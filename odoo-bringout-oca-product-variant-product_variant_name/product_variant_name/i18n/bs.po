@@ -21,7 +21,7 @@ msgstr "Naziv:"
 #. module: product_variant_name
 #: model:ir.model,name:product_variant_name.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: product_variant_name
 #: model:ir.model,name:product_variant_name.model_product_product

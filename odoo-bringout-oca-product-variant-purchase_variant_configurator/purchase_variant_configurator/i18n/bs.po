@@ -26,7 +26,7 @@ msgstr "Kompanije"
 #. module: purchase_variant_configurator
 #: model:ir.model,name:purchase_variant_configurator.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: purchase_variant_configurator
 #: model:ir.model.fields,field_description:purchase_variant_configurator.field_purchase_order_line__create_product_variant
@@ -72,7 +72,7 @@ msgstr ""
 #. module: purchase_variant_configurator
 #: model:ir.model,name:purchase_variant_configurator.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: purchase_variant_configurator
 #: model:ir.model.fields,field_description:purchase_variant_configurator.field_purchase_order_line__product_id_configurator_domain
@@ -112,13 +112,13 @@ msgstr "Konfigurator proizvoda"
 #. module: purchase_variant_configurator
 #: model:ir.model,name:purchase_variant_configurator.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalog za nabavu"
 
 # taken from hr.po
 #. module: purchase_variant_configurator
 #: model:ir.model,name:purchase_variant_configurator.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka naloga za nabavu"
 
 #. module: purchase_variant_configurator
 #: model:ir.model,name:purchase_variant_configurator.model_product_supplierinfo

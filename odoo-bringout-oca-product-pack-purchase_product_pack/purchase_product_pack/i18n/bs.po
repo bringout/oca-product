@@ -102,12 +102,12 @@ msgstr "Red paketa proizvoda"
 #. module: purchase_product_pack
 #: model:ir.model,name:purchase_product_pack.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalog za nabavu"
 
 #. module: purchase_product_pack
 #: model:ir.model,name:purchase_product_pack.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka naloga za nabavu"
 
 #. module: purchase_product_pack
 #: model:ir.model.fields,help:purchase_product_pack.field_purchase_order_line__pack_parent_line_id

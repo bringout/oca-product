@@ -45,7 +45,7 @@ msgstr "Is System Multi Lang"
 #. module: product_variant_specific_description
 #: model:ir.model,name:product_variant_specific_description.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: product_variant_specific_description
 #: model:ir.model,name:product_variant_specific_description.model_product_product
