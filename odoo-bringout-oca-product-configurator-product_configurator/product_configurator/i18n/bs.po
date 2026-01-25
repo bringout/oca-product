@@ -851,8 +851,8 @@ msgid ""
 "On the product %(product)s you cannot associate the value %(value)s with the"
 " attribute %(attr)s because they do not match."
 msgstr ""
-"On the proizvod %(proizvod)s you cannot associate the value %(value)s with "
-"the attribute %(attr)s because they do not match."
+"On the product %(product)s you cannot associate the value %(value)s with the"
+" attribute %(attr)s because they do not match."
 
 #. module: product_configurator
 #: model:ir.model.fields,field_description:product_configurator.field_product_config_domain_line__operator
@@ -1171,8 +1171,8 @@ msgid ""
 "The attribute %(attr)s must have at least one value for the product "
 "%(product)s."
 msgstr ""
-"The attribute %(attr)s must have at least one value for the proizvod "
-"%(proizvod)s."
+"The attribute %(attr)s must have at least one value for the product "
+"%(product)s."
 
 #. module: product_configurator
 #: model:ir.model.fields,help:product_configurator.field_product_attribute_value_line__attribute_id
