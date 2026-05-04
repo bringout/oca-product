@@ -72,7 +72,7 @@ msgstr ""
 #. module: purchase_variant_configurator
 #: model:ir.model,name:purchase_variant_configurator.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: purchase_variant_configurator
 #: model:ir.model.fields,field_description:purchase_variant_configurator.field_purchase_order_line__product_id_configurator_domain
@@ -118,7 +118,7 @@ msgstr "Nalog za nabavu"
 #. module: purchase_variant_configurator
 #: model:ir.model,name:purchase_variant_configurator.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 #. module: purchase_variant_configurator
 #: model:ir.model,name:purchase_variant_configurator.model_product_supplierinfo

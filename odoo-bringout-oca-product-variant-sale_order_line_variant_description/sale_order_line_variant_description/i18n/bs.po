@@ -44,7 +44,7 @@ msgstr "Opis prodaje"
 #. module: sale_order_line_variant_description
 #: model:ir.model,name:sale_order_line_variant_description.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka ponude"
+msgstr "Stavka narudžbe"
 
 #. module: sale_order_line_variant_description
 #: model_terms:ir.ui.view,arch_db:sale_order_line_variant_description.product_normal_form_view

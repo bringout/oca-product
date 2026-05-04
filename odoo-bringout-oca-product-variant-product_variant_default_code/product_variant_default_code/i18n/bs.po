@@ -28,7 +28,7 @@ msgstr "Šifra atributa"
 # taken from hr.po
 #. module: product_variant_default_code
 #. odoo-python
-#: code:addons/product_variant_default_code/models/product.py
+#: code:addons/product_variant_default_code/models/product.py:0
 #, python-format
 msgid "Attribute Name must be unique!"
 msgstr "Šifra atributa mora biti jedinstvena!"
@@ -68,15 +68,13 @@ msgid ""
 "Defines the variant \"Reference Prefix\" as the default reference "
 "(default_code) of the variant."
 msgstr ""
-"Defines the variant \"Reference Prefix\" as the default reference "
-"(default_code) of the variant."
 
 #. module: product_variant_default_code
 #. odoo-python
-#: code:addons/product_variant_default_code/models/product.py
+#: code:addons/product_variant_default_code/models/product.py:0
 #, python-format
 msgid "Found unrecognized attribute name in \"Variant Reference Mask\""
-msgstr "Found unrecognized attribute name in \"Variant Reference Mask\""
+msgstr ""
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__default_code
@@ -110,7 +108,7 @@ msgstr "Zadano ponašanje šifre proizvoda"
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_res_config_settings__group_product_default_code_manual_mask
 msgid "Product Default Code Manual Mask"
-msgstr "Product Default Code Manual Mask"
+msgstr ""
 
 #. module: product_variant_default_code
 #: model:ir.model,name:product_variant_default_code.model_product_product
@@ -132,7 +130,7 @@ msgstr "Prefiks reference"
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_res_config_settings__prefix_as_default_code
 msgid "Reference Prefix as default Reference"
-msgstr "Reference Prefix as default Reference"
+msgstr ""
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,help:product_variant_default_code.field_product_product__reference_mask
@@ -167,13 +165,11 @@ msgid ""
 "Set behaviour of codes. Default: Automask (depends on variant use: see "
 "Sales/Purchases configuration)"
 msgstr ""
-"Set behaviour of codes. Default: Automask (depends on variant use: see "
-"Sales/Purchases configuration)"
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__variant_default_code_error
 msgid "Variant Default Code Error"
-msgstr "Variant Default Code Error"
+msgstr ""
 
 #. module: product_variant_default_code
 #: model:ir.model.fields,field_description:product_variant_default_code.field_product_product__reference_mask
@@ -183,4 +179,4 @@ msgstr "Maska reference varijante"
 #. module: product_variant_default_code
 #: model_terms:ir.ui.view,arch_db:product_variant_default_code.product_template_only_form_view
 msgid "[attribute3]-[attribute1]"
-msgstr "[attribute3]-[attribute1]"
+msgstr ""

@@ -21,4 +21,4 @@ msgstr "Skladišna kretanja proizvoda(stavke)"
 #. module: sale_stock_product_pack
 #: model:ir.model,name:sale_stock_product_pack.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"

@@ -36,7 +36,7 @@ msgstr "Detaljno po komponenti"
 #. module: product_pack
 #: model:ir.model.fields,field_description:product_pack.field_product_pack_line__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: product_pack
 #: model:ir.model.fields,field_description:product_pack.field_product_product__used_in_pack_line_ids
@@ -54,8 +54,6 @@ msgid ""
 "If you check this field yo will be able to edit sale/purchase order line "
 "relate to its component"
 msgstr ""
-"If you check this field yo will be able to edit sale/purchase order line "
-"relate to its component"
 
 #. module: product_pack
 #: model:ir.model.fields.selection,name:product_pack.selection__product_template__pack_component_price__ignored
@@ -75,7 +73,7 @@ msgstr "Je li paket proizvoda?"
 #. module: product_pack
 #: model:ir.model.fields,field_description:product_pack.field_product_pack_line____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: product_pack
 #: model:ir.model.fields,field_description:product_pack.field_product_pack_line__write_uid
@@ -100,10 +98,6 @@ msgid ""
 "* Totalized in main product: Detail lines merging lines prices on pack (don't show component prices).\n"
 "* Ignored: Use product pack price (ignore detail line prices)."
 msgstr ""
-"On sale orders or purchase orders:\n"
-"* Detailed per component: Detail lines with prices.\n"
-"* Totalized in main product: Detail lines merging lines prices on pack (don't show component prices).\n"
-"* Ignored: Use product pack price (ignore detail line prices)."
 
 #. module: product_pack
 #: model:ir.model.fields,help:product_pack.field_product_product__pack_type
@@ -112,9 +106,6 @@ msgid ""
 "* Detailed: Display components individually in the sale order.\n"
 "* Non Detailed: Do not display components individually in the sale order."
 msgstr ""
-"On sale orders or purchase orders:\n"
-"* Detailed: Display components individually in the sale order.\n"
-"* Non Detailed: Do not display components individually in the sale order."
 
 #. module: product_pack
 #: model_terms:ir.ui.view,arch_db:product_pack.product_template_form_view
@@ -124,22 +115,22 @@ msgstr "Pakovanje"
 #. module: product_pack
 #: model:product.template,name:product_pack.product_pack_cpu_detailed_components_product_template
 msgid "Pack CPU (Detailed - Displayed Components Price)"
-msgstr "Pack CPU (Detailed - Displayed Components Price)"
+msgstr ""
 
 #. module: product_pack
 #: model:product.template,name:product_pack.product_pack_cpu_detailed_ignored_product_template
 msgid "Pack CPU (Detailed - Ignored Components Price)"
-msgstr "Pack CPU (Detailed - Ignored Components Price)"
+msgstr ""
 
 #. module: product_pack
 #: model:product.template,name:product_pack.product_pack_cpu_detailed_totalized_product_template
 msgid "Pack CPU (Detailed - Totalized Components Price)"
-msgstr "Pack CPU (Detailed - Totalized Components Price)"
+msgstr ""
 
 #. module: product_pack
 #: model:product.template,name:product_pack.product_pack_cpu_non_detailed_product_template
 msgid "Pack CPU (Non Detailed - Totalized Components Price)"
-msgstr "Pack CPU (Non Detailed - Totalized Components Price)"
+msgstr ""
 
 #. module: product_pack
 #: model:ir.model.fields,field_description:product_pack.field_product_product__pack_component_price
@@ -159,22 +150,22 @@ msgstr "Paket se može mijenjati"
 #. module: product_pack
 #: model:ir.model.fields,field_description:product_pack.field_product_product__pack_modifiable_invisible
 msgid "Pack Modifiable Invisible"
-msgstr "Pack Modifiable Invisible"
+msgstr ""
 
 #. module: product_pack
 #: model:product.template,name:product_pack.product_pack_pc_detailed_components_product_template
 msgid "Pack PC (Detailed - Displayed Components Price)"
-msgstr "Pack PC (Detailed - Displayed Components Price)"
+msgstr ""
 
 #. module: product_pack
 #: model:product.template,name:product_pack.product_pack_pc_detailed_ignored_product_template
 msgid "Pack PC (Detailed - Ignored Components Price)"
-msgstr "Pack PC (Detailed - Ignored Components Price)"
+msgstr ""
 
 #. module: product_pack
 #: model:product.template,name:product_pack.product_pack_pc_detailed_totalized_product_template
 msgid "Pack PC (Detailed - Totalized Components Price)"
-msgstr "Pack PC (Detailed - Totalized Components Price)"
+msgstr ""
 
 #. module: product_pack
 #: model_terms:ir.ui.view,arch_db:product_pack.product_pack_line_form
@@ -188,17 +179,16 @@ msgstr "Paket proizvoda"
 
 #. module: product_pack
 #. odoo-python
-#: code:addons/product_pack/models/product_template.py
+#: code:addons/product_pack/models/product_template.py:0
 #, python-format
 msgid ""
 "Pack lines products company must be the same as the parent product company"
 msgstr ""
-"Pack lines products company must be the same as the parent product company"
 
 #. module: product_pack
 #: model:ir.model.fields,help:product_pack.field_product_product__used_in_pack_line_ids
 msgid "Packs where product is used."
-msgstr "Packs where product is used."
+msgstr ""
 
 #. module: product_pack
 #: model:ir.model.fields,field_description:product_pack.field_product_pack_line__parent_product_id
@@ -208,7 +198,7 @@ msgstr "Nadređeni proizvod"
 #. module: product_pack
 #: model:ir.model,name:product_pack.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: product_pack
 #: model:ir.model,name:product_pack.model_product_product
@@ -218,7 +208,7 @@ msgstr "Varijanta proizvoda"
 #. module: product_pack
 #: model:ir.model.constraint,message:product_pack.constraint_product_pack_line_product_uniq
 msgid "Product must be only once on a pack!"
-msgstr "Product must be only once on a pack!"
+msgstr ""
 
 #. module: product_pack
 #: model:ir.model,name:product_pack.model_product_pack_line
@@ -241,8 +231,6 @@ msgid ""
 "Technical field in order to compute the availability of the Pack Modifiable "
 "field"
 msgstr ""
-"Technical field in order to compute the availability of the Pack Modifiable "
-"field"
 
 #. module: product_pack
 #: model:ir.model.fields.selection,name:product_pack.selection__product_template__pack_component_price__totalized
@@ -251,16 +239,14 @@ msgstr "Ukupno u glavnom proizvodu"
 
 #. module: product_pack
 #. odoo-python
-#: code:addons/product_pack/models/product_pack_line.py
+#: code:addons/product_pack/models/product_pack_line.py:0
 #, python-format
 msgid ""
 "You cannot set recursive packs.\n"
 "Product id: %s"
 msgstr ""
-"You cannot set recursive packs.\n"
-"Product id: %s"
 
 #. module: product_pack
 #: model_terms:ir.ui.view,arch_db:product_pack.product_template_only_form_view
 msgid "You must save first to add pack lines"
-msgstr "You must save first to add pack lines"
+msgstr ""

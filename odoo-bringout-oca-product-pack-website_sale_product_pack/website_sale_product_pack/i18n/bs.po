@@ -16,12 +16,12 @@ msgstr ""
 #. module: website_sale_product_pack
 #: model_terms:ir.ui.view,arch_db:website_sale_product_pack.cart_lines
 msgid "<span>↳ </span>"
-msgstr "<span>↳ </span>"
+msgstr ""
 
 #. module: website_sale_product_pack
 #: model:ir.model,name:website_sale_product_pack.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: website_sale_product_pack
 #: model:ir.model,name:website_sale_product_pack.model_product_product
@@ -31,12 +31,12 @@ msgstr "Varijanta proizvoda"
 #. module: website_sale_product_pack
 #: model:ir.model,name:website_sale_product_pack.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: website_sale_product_pack
 #: model:ir.model,name:website_sale_product_pack.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: website_sale_product_pack
 #: model:ir.model,name:website_sale_product_pack.model_website
@@ -45,7 +45,7 @@ msgstr "Web stranica"
 
 #. module: website_sale_product_pack
 #. odoo-python
-#: code:addons/website_sale_product_pack/models/product_product.py
+#: code:addons/website_sale_product_pack/models/product_product.py:0
 #, python-format
 msgid ""
 "You can't add unpublished products (%(unpublished_products)s) toa published "
@@ -56,7 +56,7 @@ msgstr ""
 
 #. module: website_sale_product_pack
 #. odoo-python
-#: code:addons/website_sale_product_pack/models/product_template.py
+#: code:addons/website_sale_product_pack/models/product_template.py:0
 #, python-format
 msgid ""
 "You can't unpublished product (%(product_name)s) for apublished pack parents"
@@ -67,7 +67,7 @@ msgstr ""
 
 #. module: website_sale_product_pack
 #. odoo-python
-#: code:addons/website_sale_product_pack/models/product_template.py
+#: code:addons/website_sale_product_pack/models/product_template.py:0
 #, python-format
 msgid ""
 "You can't unpublished products (%(unpublished_products)s) to apublished pack"
