@@ -26,7 +26,7 @@ msgstr "Kompanije"
 #. module: purchase_variant_configurator
 #: model:ir.model,name:purchase_variant_configurator.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: purchase_variant_configurator
 #: model:ir.model.fields,field_description:purchase_variant_configurator.field_purchase_order_line__create_product_variant

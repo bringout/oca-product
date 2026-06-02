@@ -27,7 +27,7 @@ msgstr ""
 #. module: sale_order_line_variant_description
 #: model_terms:ir.ui.view,arch_db:sale_order_line_variant_description.product_variant_easy_edit_view
 msgid "Notes"
-msgstr "Bilješke"
+msgstr "Napomene"
 
 #. module: sale_order_line_variant_description
 #: model:ir.model,name:sale_order_line_variant_description.model_product_product
